@@ -23,7 +23,7 @@
 
 
 
-.steptext li {
+.steptext ul li {
     display: inline-block; 
     margin-right: 2%; 
 }
