@@ -1,7 +1,41 @@
-step {
-    
+.row.step {
+    position: relative; 
     height: 100%; 
     width: 100%; 
-    background-color: #FFCC11; 
-	
+    vertical-align: bottom; 
+	text-align: center; 
+    align-content: center; 
+}
+
+
+.steptext{
+     
+    position: relative; 
+    margin-top: 20%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 55%; 
+    border: white solid; 
+}
+
+
+
+.steptext li {
+    display: inline-block; 
+    margin-right: 2%; 
+}
+
+.encouragement {
+   width: 30%; 
+    position: absolute; 
+    right: 0; 
+    left: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    bottom: 10%; 
+      
+}
+
+html, body {
+    height: 100%;
 }
